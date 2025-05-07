@@ -5,6 +5,7 @@ import Accueil from './components/accueil.jsx'
 import Presentation from './components/presentation.jsx'
 import Projet from './components/projet.jsx'
 import Album from './components/album.jsx'
+import './App.css'
 
 
 function App(){
