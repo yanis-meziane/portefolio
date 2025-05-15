@@ -1,0 +1,56 @@
+/* Scroll fluide pour les ancres */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Police globale */
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Barre de navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Conteneur des liens pas celui du menu burger*/
+nav .nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Lien de navigation */
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition:  0.3s, color 0.3s;
+  border-radius: 1rem;
+}
+
+.link:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Marge en haut pour compenser la navbar fixe */
+main {
+  padding-top: 80px;
+}
+
+.logo{
+    color: white;
+}

@@ -1,0 +1,59 @@
+/* Applique la police globale et un scroll fluide */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* SECTION PRINCIPALE */
+#section_main {
+  background-color: #f2f2f2;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* PHOTO DE PROFIL */
+#yanis {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+/* TITRE */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* BOUTON DE TÉLÉCHARGEMENT */
+#downloading {
+  padding: 0.7rem 1.5rem;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin: 1rem 0;
+}
+
+#downloading:hover {
+  background-color: #dcdcdc;
+  color: black;
+}
+
+/* PARAGRAPHE DE PRÉSENTATION */
+#littlePresentation {
+  max-width: 800px;
+  margin: 2rem auto 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
