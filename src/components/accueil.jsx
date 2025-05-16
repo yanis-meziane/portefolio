@@ -1,9 +1,9 @@
-import "../components/CSS/accueil.css";
+import "../components/CSS/main.css";
 
 export default  function  Accueil() {
   return (
   <main id="accueil">
-    <section id="section_main">
+    <section className="section_main">
       <article>
         <img id="yanis" src="/Images/yanis.jpg" alt="Yanis Meziane" />
       </article>
@@ -19,10 +19,6 @@ export default  function  Accueil() {
       </article>
 
       <article id="littlePresentation">
-        <p>
-          <b>Hey,</b> je m'appelle Yanis. Je suis étudiant en ingénierie numérique à l'EFREI.
-          Mes centres d'intérêt incluent l’audiovisuel, la photographie, l’athlétisme et la réalité virtuelle.
-        </p>
         <p>
           <em>
             “La photographie est un art qui permet de retranscrire ta vision du monde à travers un appareil photo.”

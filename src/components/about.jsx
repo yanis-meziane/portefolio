@@ -1,13 +1,33 @@
+import "../components/CSS/main.css";
+
 export const About = () => {
     return(
 
         <section id="about">
+            <article className="section_main">
+                    <h1>
+                        About Me 
+                    </h1>
+                <div id="text_presentation">
+                    <p>
+                         Bonjour, je m’appelle Yanis et je suis actuellement étudiant en Ingénierie Numérique à l’EFREI. Passionné par l’informatique, je cherche à approfondir mes compétences techniques, notamment dans le développement web. 
 
-            <h1>Je suis la page presentation</h1>
+                    <br />
+                    <br />
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur suscipit commodi exercitationem enim aspernatur quas quos beatae laudantium expedita excepturi quaerat, ratione nobis adipisci, neque nostrum error quam, quibusdam ut.
-            </p>
+                        Mon parcours académique, enrichi par diverses expériences professionnelles, m’a permis d’acquérir une solide compréhension des enjeux du secteur informatique. J’ai eu l’opportunité de mettre en pratique mes connaissances au travers de stages et de projets réalisés dans le cadre de mes études. 
+
+                    <br />
+
+                        MPour le Back-End, je suis à l’aise avec <em>Java</em>, <em>Node.js</em> et <em>Python</em>, et côté Front-End, j’utilise régulièrement <em>HTML/CSS</em>, <em>react</em> et <em>Javascript</em>.
+
+                    <br />
+                    <br />
+
+                        En dehors du domaine numérique, je nourris plusieurs centres d’intérêt. Je suis particulièrement passionné par l’audiovisuel, notamment la photographie et le cinéma. Par ailleurs, je pratique de nombreux sports, parmi lesquels l' <b>Athlétisme</b>, le <b>Judo</b>, <b>football</b>, le <b>tir à l'arc</b> et plus récemment l'<b>ultimate</b>.
+                    </p>
+                </div>
+            </article>
 
         </section>
     );
