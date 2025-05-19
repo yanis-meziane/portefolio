@@ -1,4 +1,5 @@
 import "../components/CSS/main.css";
+import {GraduationCap} from "lucide-react"
 
 export const About = () => {
     return(
@@ -29,6 +30,17 @@ export const About = () => {
                 </div>
             </article>
 
-        </section>
+       
+            <h2>Education</h2>
+                <article id="education">
+                    <GraduationCap></GraduationCap>
+                        <div className="education_text">
+                            <p>
+                                Bachelor Ingénierie et Numérique
+                            </p>
+                        </div>
+                </article>
+    
+    </section>
     );
 };
