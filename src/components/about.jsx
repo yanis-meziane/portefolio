@@ -20,7 +20,7 @@ export const About = () => {
 
                     <br />
 
-                        MPour le Back-End, je suis à l’aise avec <em>Java</em>, <em>Node.js</em> et <em>Python</em>, et côté Front-End, j’utilise régulièrement <em>HTML/CSS</em>, <em>react</em> et <em>Javascript</em>.
+                        Pour le Back-End, je suis à l’aise avec <em>Java</em>, <em>Node.js</em> et <em>Python</em>, et côté Front-End, j’utilise régulièrement <em>HTML/CSS</em>, <em>react</em> et <em>Javascript</em>.
 
                     <br />
                     <br />
@@ -33,10 +33,35 @@ export const About = () => {
        
             <h2>Education</h2>
                 <article id="education">
-                    <GraduationCap></GraduationCap>
+                     <GraduationCap></GraduationCap>
                         <div className="education_text">
                             <p>
                                 Bachelor Ingénierie et Numérique
+                            </p>
+
+                            <p>
+                                <em>
+                                    2024-2026
+                                </em>
+                            </p>
+                            <p>
+                               EFREI Paris 
+                            </p>
+                        </div>
+
+                        <GraduationCap></GraduationCap>
+                        <div className="education_text">
+                            <p>
+                                Bachelor Ingénierie et Numérique
+                            </p>
+
+                            <p>
+                                <em>
+                                    2024-2026
+                                </em>
+                            </p>
+                            <p>
+                               EFREI Paris 
                             </p>
                         </div>
                 </article>

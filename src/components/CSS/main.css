@@ -91,15 +91,21 @@ h1 {
 
 #education {
   display: flex;
-  flex-direction: row; /* ✅ Pour que "Education" soit au-dessus */
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 100%;
+  gap: 1rem;
+  padding: 1rem;
 }
 
-#education_text{
-  padding: 2vh;
+.education_text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
+
+
 
 h2{
   display: flex;
