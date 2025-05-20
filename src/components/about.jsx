@@ -33,9 +33,13 @@ export const About = () => {
        
             <h2>Education</h2>
                 <article id="education">
-                     <GraduationCap></GraduationCap>
                         <div className="education_text">
-                            <p>
+                            <div>
+                                <GraduationCap></GraduationCap>
+                            </div>
+
+                            <div>
+                                 <p>
                                 Bachelor Ingénierie et Numérique
                             </p>
 
@@ -44,25 +48,57 @@ export const About = () => {
                                     2024-2026
                                 </em>
                             </p>
+
+                                <p>
+                                    EFREI Paris 
+                                </p>
+                            </div>
+                        </div>
+                    <br />
+
+                        <div className="education_text">
+                            <div>
+                                <GraduationCap></GraduationCap>
+                            </div>
+
+                            <div>
+                                 <p>
+                                    Bachelor Développeur Web et Application
+                                </p>
+
                             <p>
-                               EFREI Paris 
+                                <em>
+                                    2023-2024
+                                </em>
                             </p>
+                            
+                                <p>
+                                    EFREI Paris 
+                                </p>
+                            </div>
                         </div>
 
-                        <GraduationCap></GraduationCap>
+
                         <div className="education_text">
-                            <p>
-                                Bachelor Ingénierie et Numérique
-                            </p>
+                            <div>
+                                <GraduationCap></GraduationCap>
+                            </div>
+
+                            <div>
+                                 <p>
+                                    Licence Math/SVT 
+                                </p>
 
                             <p>
                                 <em>
-                                    2024-2026
+                                    2022-2023
                                 </em>
                             </p>
-                            <p>
-                               EFREI Paris 
-                            </p>
+                            
+                                <p>
+                                    Université d'Orléans
+                                </p>
+                            </div>
                         </div>
                 </article>
     

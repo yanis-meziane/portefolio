@@ -73,6 +73,7 @@ h1 {
   text-align: center;
   border-radius: 2vh;
   text-align: justify;
+  background-color: rgba(186, 186, 186,0.6);
 }
 
 
@@ -91,7 +92,7 @@ h1 {
 
 #education {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -101,8 +102,9 @@ h1 {
 
 .education_text {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
 }
 
 
