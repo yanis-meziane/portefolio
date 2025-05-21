@@ -30,8 +30,8 @@ export const About = () => {
                 </div>
             </article>
 
-       
-            <h2>Education</h2>
+        <div id="education_main">
+                        <h2>Education</h2>
                 <article id="education">
                         <div className="education_text">
                             <div>
@@ -101,6 +101,7 @@ export const About = () => {
                             </div>
                         </div>
                 </article>
+        </div>
     
     </section>
     );
