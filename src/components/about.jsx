@@ -1,8 +1,6 @@
 import "../components/CSS/main.css";
-import {GraduationCap} from "lucide-react"
-import { Clapperboard } from "lucide-react";
-import { PartyPopper } from "lucide-react";
-import { Palette } from "lucide-react";
+import { Palette, Theater, PartyPopper, Clapperboard, GraduationCap, Notebook } from "lucide-react";
+
 
 export const About = () => {
     return(
@@ -194,6 +192,64 @@ export const About = () => {
 
                                     <p>
                                         - Sorties cinéma
+                                    </p>
+                                </div>
+                            </div>
+                    <br />
+                             <div className="education_text">
+                                <div>
+                                    <Theater />
+                                </div>
+
+                                <div>
+                                    <p>
+                                        Trésorier Scène Efreinée
+                                    </p>
+
+                                <p>
+                                    <em>
+                                        2024-2025
+                                    </em>
+                                </p>
+                            
+                                    <p>
+                                        - Cours d'improvisation
+                                    </p>
+                                    <p>
+                                        - Organisation de sorties à des matchs d'improvisation
+                                    </p>
+
+                                    <p>
+                                        - Organisation d'un spectacle de fin d'année
+                                    </p>
+                                </div>
+                            </div>
+                    <br />
+                             <div className="education_text">
+                                <div>
+                                    <Notebook />
+                                </div>
+
+                                <div>
+                                    <p>
+                                        Vice - Président Pôle Journée à Tribu-Terre (BDE Orléans)
+                                    </p>
+
+                                <p>
+                                    <em>
+                                        2022-2023
+                                    </em>
+                                </p>
+                            
+                                    <p>
+                                        - Partage culture scientifique 
+                                    </p>
+                                    <p>
+                                        - Organisation de débat sur le domaine scientifique
+                                    </p>
+
+                                    <p>
+                                        - Organisation de sorties mensuelles d'un journal scientifique
                                     </p>
                                 </div>
                             </div>
