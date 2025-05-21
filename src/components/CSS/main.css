@@ -162,13 +162,14 @@ h2{
   justify-content: center;
 }
 
-#skills_main{
+.skills_main{
   display: flex;
   padding: 2rem;
   flex-direction: row;
   gap: 3rem;
  
 }
+
 .skills {
   display: flex;
   flex-direction: row;
