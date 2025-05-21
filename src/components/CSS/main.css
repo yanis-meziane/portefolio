@@ -142,11 +142,47 @@ h1 {
   flex-shrink: 0;
 }
 
-
-
 .education_text em {
   color: #666;
   font-style: italic;
 }
 
 
+/* Skills Part */
+
+h2{
+  display: flex;
+  margin: 1rem;
+}
+
+#competence{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#skills_main{
+  display: flex;
+  padding: 2rem;
+  flex-direction: row;
+  gap: 3rem;
+ 
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  gap: 1.5rem;
+  transition: transform 0.2s ease;
+  width: 100%;
+}
+
+.skills:hover{
+  transform: translateY(-5px);
+  background-color: #f0f0f0;
+}
