@@ -85,32 +85,68 @@ h1 {
   flex-direction: column;
 }
 
-#education {
+
+
+#AboutMe_main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
   width: 100%;
-  gap: 1rem;
+  background: white;
+  margin-top: 2rem;
+}
+
+#AboutMe_main h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+  border-bottom: 2px solid #aaa;
+  padding-bottom: 0.5rem;
+  width: fit-content;
+  margin: 0 auto 2rem;
+}
+
+/* Education & Engagement cards */
+#education {
+  gap: 2rem;
   padding: 1rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .education_text {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  gap: 1.5rem;
+  transition: transform 0.2s ease;
   width: 100%;
-  height: 10vh;
-  gap: 1rem;
 }
 
-#education_main{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.education_text:hover {
+  transform: translateY(-5px);
+  background-color: #f0f0f0;
 }
 
-h2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.education_text svg {
+  width: 40px;
+  height: 40px;
+  color: #333;
+  flex-shrink: 0;
 }
+
+
+
+.education_text em {
+  color: #666;
+  font-style: italic;
+}
+
 

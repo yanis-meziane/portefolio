@@ -1,5 +1,8 @@
 import "../components/CSS/main.css";
 import {GraduationCap} from "lucide-react"
+import { Clapperboard } from "lucide-react";
+import { PartyPopper } from "lucide-react";
+import { Palette } from "lucide-react";
 
 export const About = () => {
     return(
@@ -30,77 +33,171 @@ export const About = () => {
                 </div>
             </article>
 
-        <div id="education_main">
+        <div id="AboutMe_main">
                         <h2>Education</h2>
-                <article id="education">
-                        <div className="education_text">
-                            <div>
-                                <GraduationCap></GraduationCap>
-                            </div>
+                            <article id="education">
+                                <div className="education_text">
+                                    <div>
+                                        <GraduationCap></GraduationCap>
+                                    </div>
 
-                            <div>
-                                 <p>
-                                Bachelor Ingénierie et Numérique
-                            </p>
+                                    <div>
+                                        <p>
+                                            Bachelor Ingénierie et Numérique
+                                        </p>
 
-                            <p>
-                                <em>
-                                    2024-2026
-                                </em>
-                            </p>
+                                        <p>
+                                            <em>
+                                                2024-2026
+                                            </em>
+                                        </p>
 
-                                <p>
-                                    EFREI Paris 
-                                </p>
-                            </div>
-                        </div>
+                                        <p>
+                                            EFREI Paris 
+                                        </p>
+                                    </div>
+                                </div>
                     <br />
 
-                        <div className="education_text">
-                            <div>
-                                <GraduationCap></GraduationCap>
-                            </div>
+                            <div className="education_text">
+                                <div>
+                                    <GraduationCap></GraduationCap>
+                                </div>
 
-                            <div>
-                                 <p>
-                                    Bachelor Développeur Web et Application
-                                </p>
+                                <div>
+                                    <p>
+                                        Bachelor Développeur Web et Application
+                                    </p>
 
-                            <p>
-                                <em>
-                                    2023-2024
-                                </em>
-                            </p>
+                                    <p>
+                                        <em>
+                                            2023-2024
+                                        </em>
+                                    </p>
                             
+                                    <p>
+                                        EFREI Paris 
+                                    </p>
+                                </div>
+                            </div>
+                    <br />
+
+                            <div className="education_text">
+                                <div>
+                                    <GraduationCap></GraduationCap>
+                                </div>
+
+                                <div>
+                                    <p>
+                                        Licence Math/SVT 
+                                    </p>
+
                                 <p>
-                                    EFREI Paris 
+                                    <em>
+                                        2022-2023
+                                    </em>
                                 </p>
-                            </div>
-                        </div>
-
-
-                        <div className="education_text">
-                            <div>
-                                <GraduationCap></GraduationCap>
-                            </div>
-
-                            <div>
-                                 <p>
-                                    Licence Math/SVT 
-                                </p>
-
-                            <p>
-                                <em>
-                                    2022-2023
-                                </em>
-                            </p>
                             
-                                <p>
-                                    Université d'Orléans
-                                </p>
+                                    <p>
+                                        Université d'Orléans
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                </article>
+                    </article>
+
+                    <h2>Engagements Associatifs</h2>
+                            <article id="education">
+                                <div className="education_text">
+                                    <div>
+                                        <PartyPopper />
+                                    </div>
+
+                                    <div>
+                                        <p>
+                                            Secrétaire Week-End d'Intégration (WEI) 
+                                        </p>
+
+                                        <p>
+                                            <em>
+                                                2025-2026
+                                            </em>
+                                        </p>
+
+                                        <p>
+                                            EFREI Paris 
+                                        </p>
+
+                                        <p>
+                                             - Organisation du week-end d'intégration avec plus de 900 étudiants.
+                                        </p>
+                                    </div>
+                                </div>
+                    <br />
+
+                            <div className="education_text">
+                                <div>
+                                    <Palette />
+                                </div>
+
+                                <div>
+                                    <p>
+                                        Secrétaire Bureau Des Arts (BDA)
+                                    </p>
+
+                                    <p>
+                                        <em>
+                                            2024-2025
+                                        </em>
+                                    </p>
+                            
+                                    <p>
+                                        EFREI Paris 
+                                    </p>
+
+                                    <p>
+                                        - Organisation de la fête de la musique
+                                    </p>
+
+                                    <p>
+                                        - Organisation d'un Spectacle de Fin d'Année 
+                                    </p>
+                                    <p>
+                                         - Organisation d'un concours de talent.
+                                    </p>
+                                </div>
+                            </div>
+
+                        <br />
+                        
+                            <div className="education_text">
+                                <div>
+                                    <Clapperboard />
+                                </div>
+
+                                <div>
+                                    <p>
+                                        Président Efr'Action
+                                    </p>
+
+                                <p>
+                                    <em>
+                                        2024-2025
+                                    </em>
+                                </p>
+                            
+                                    <p>
+                                        - Partage culture cinématographique 
+                                    </p>
+                                    <p>
+                                        - Organisation de sortie culturelle
+                                    </p>
+
+                                    <p>
+                                        - Sorties cinéma
+                                    </p>
+                                </div>
+                            </div>
+                    </article>
         </div>
     
     </section>
