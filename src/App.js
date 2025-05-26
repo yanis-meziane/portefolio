@@ -5,6 +5,7 @@ import { About } from "./components/about";
 import { Competence } from "./components/competences.jsx";
 import { Projet } from "./components/projet.jsx";
 import { Contact } from "./components/contact.jsx";
+import { Footer } from "./components/footer.jsx"
 
 function App() {
   return (
@@ -14,15 +15,12 @@ function App() {
         <Routes>
           <Route index element={<Accueil />} />
         </Routes>
-
           <About />
           <Competence />
           <Projet />
           <Contact />
-
-
-
       </BrowserRouter>
+      < Footer />
     </>
   );
 }
