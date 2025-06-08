@@ -1,4 +1,5 @@
 import "../components/CSS/main.css";
+import CV from ".../public/files/CV.pdf"
 
 export default  function  Accueil() {
   return (
@@ -13,13 +14,9 @@ export default  function  Accueil() {
       </article>
 
       <article>
-        <a
-                href="/CV.pdf"
-                download={true}
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-              >
-                {("download")}
-              </a>
+        <a href={CV} download="CV_Yanis_Meziane.pdf">
+  Télécharger mon CV
+</a>
       </article>
 
       <article id="littlePresentation">
