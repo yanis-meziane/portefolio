@@ -10,6 +10,10 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 /* SECTION PRINCIPALE */
 .section_main {
@@ -49,6 +53,7 @@ h1 {
   background-color: #dcdcdc;
   color: black;
 }
+
 
 /* PARAGRAPHE DE PRÉSENTATION */
 #littlePresentation {
