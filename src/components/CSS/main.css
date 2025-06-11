@@ -20,7 +20,7 @@ a {
   width: 100%;
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #FAF9F2 ;
+  background-color: white ;
 }
 
 /* PHOTO DE PROFIL */
@@ -79,7 +79,7 @@ h1 {
   border-radius: 2vh;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   text-align: justify;
-  background-color: rgba(225, 225, 225, 0.6);
+  background-color: rgba(131, 131, 131, 0.6);
 }
 
 /* Education & Engagement cards */
@@ -90,7 +90,7 @@ h1 {
   align-items: center;
   width: 100%;
   flex-direction: column;
-  background-color: #FAF9F2;
+  background-color: white;
 }
 
 #AboutMe_main {
@@ -102,7 +102,7 @@ h1 {
   width: 100%;
   background: white;
   margin-top: 2rem;
-   background-color: #FAF9F2;
+   background-color: white;
 }
 
 #AboutMe_main h2 {
@@ -127,7 +127,7 @@ h1 {
 .education_text {
   display: flex;
   align-items: flex-start;
-  background-color: #f8f8f8;
+  background-color: #d0cece;
   padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -166,7 +166,7 @@ h2{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #FAF9F2;
+  background-color: white;
 }
 
 .skills_main{
@@ -181,7 +181,7 @@ h2{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  background-color: #f8f8f8;
+  background-color: #d0cece;
   padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -205,7 +205,7 @@ h2{
   align-items: center;
   width: 100%;
   flex-direction: column;
-  background-color: #FAF9F2;
+  background-color: white;
   
 }
 
@@ -218,7 +218,7 @@ h2{
   width: 100%;
   background: white;
   margin-top: 2rem;
-  background-color: #FAF9F2;
+  background-color: white;
 }
 
 #projectsMain h2 {
@@ -272,7 +272,7 @@ h2{
   align-items: center;
   width: 100%;
   flex-direction: column;
-  background-color: #FAF9F2;
+  background-color: white;
   
 }
 
@@ -283,7 +283,7 @@ h2{
   gap: 3rem;
   padding: 2rem;
   width: 100%;
-  background-color: #FAF9F2;
+  background-color: white;
   margin-top: 2rem;
 }
 
@@ -306,7 +306,7 @@ h2{
 }
 
 .allContact {
-  background-color: #f8f8f8;
+ background-color: #d0cece;
   padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
